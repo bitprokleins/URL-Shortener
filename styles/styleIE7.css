@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+.formarea form {
+	height: 30px;
+	position: absolute;
+	top: 290px;
+	margin-top: 20px;
+	margin-left: -200px;
+	width: 400px;
+	text-align: center;
+}
+
+.bitpro {
+	color: black;
+    font-family: courier;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 auto;
+    position: absolute;
+    text-shadow: 3px 2px #EBEBEB;
+    top: 240px;
+    width: 400px;
+    margin-left: -200px;
+}
+
+.info {
+	position: relative;
+	top: 60px;
+}
+
+ul.error {
+	position: relative;
+	top: 100px;
+	list-style: none;
+	padding-left: 0px;
+	color: red;
+	margin-left: -20px;
+}

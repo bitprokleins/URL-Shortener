@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db>
+    <host>localhost</host>
+    <user>dbuser</user>
+    <password>password</password>
+    <dbname>URL-Shortener</dbname>
+</db>

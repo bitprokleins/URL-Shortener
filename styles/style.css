@@ -1,0 +1,93 @@
+@CHARSET "UTF-8";
+
+body {
+	font-family: arial;
+	color: white;
+	font-size: 12px;
+	background-color: black;
+}
+
+.formarea {
+	border-radius: 8px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ababab), to(gray));
+	background: -moz-linear-gradient(top, #ababab, gray);
+	background-color: gray;
+	margin: 200px auto;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+}
+
+.info {
+	position: relative;
+	top: 60px;
+}
+
+.info-not-found {
+	position: relative;
+	top: 90px;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.result {
+	position: relative;
+	top: 115px;
+}
+
+ul.error {
+	position: relative;
+	top: 100px;
+	list-style: none;
+	padding-left: 0px;
+	color: red;
+}
+
+.formarea form {
+	height: 30px;
+	position: absolute;
+	top: 290px;
+	width: 400px;
+	text-align: center;
+}
+
+.footer {
+	margin: 0px auto;
+    width: 400px;
+    height: 20px;
+    text-align: center;
+}
+
+.footer a {
+	color: gray;
+	font-style: italic;
+	margin: 0px 10px;
+}
+
+.bitpro {
+	color: black;
+    font-family: courier;
+    font-size: 20px;
+    font-style: italic;
+    margin: 0 auto;
+    position: absolute;
+    text-shadow: 3px 2px #EBEBEB;
+    top: 220px;
+    width: 400px;
+}
+
+.bitpro-red {
+	color: #DD3434;
+}
+
+.redirectLink {
+	color: #ababab;
+}
